@@ -17,7 +17,7 @@ mkdir Fidranet
 cd Fidranet
 
 # 3. Download installer script
-curl -O https://raw.githubusercontent.com/FID-PAM/fidranet/main/fidranet-install.sh
+wget https://raw.githubusercontent.com/FID-PAM/fidranet/main/fidranet-install.sh
 
 # 4. Make the installer script executable
 chmod +x fidranet-install.sh
