@@ -16,8 +16,11 @@ mkdir Fidranet
 # 2. Enter the directory
 cd Fidranet
 
-# 3. Make the installer script executable
+# 3. Download installer script
+curl -O https://raw.githubusercontent.com/FID-PAM/fidranet/main/fidranet-install.sh
+
+# 4. Make the installer script executable
 chmod +x fidranet-install.sh
 
-# 4. Run the installer as root (or with sudo)
+# 5. Run the installer as root (or with sudo)
 sudo ./fidranet-install.sh
