@@ -17,10 +17,10 @@ mkdir Fidarnet
 cd Fidarnet
 
 # 3. Download installer script
-wget https://raw.githubusercontent.com/FID-PAM/Fidarnet/main/Fidarnet-install.sh
+wget https://raw.githubusercontent.com/FID-PAM/fidarnet/main/fidarnet-install.sh
 
 # 4. Make the installer script executable
-chmod +x Fidarnet-install.sh
+chmod +x fidarnet-install.sh
 
 # 5. Run the installer as root (or with sudo)
-sudo ./Fidarnet-install.sh
+sudo ./fidarnet-install.sh
